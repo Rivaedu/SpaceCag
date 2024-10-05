@@ -140,13 +140,13 @@ var asteroidLabels = ["Mars","TheEarth","Venus","Mercurio","Jupiter","Saturn","U
  *--------------------------------------------------------------------------------------------*/	
 const planetData = {
 	Mercurio: {
-        name: "Mercurio",
+        name: "Mercury",
         tipo: "Planeta",
         semimajorAxis: "0.39 AU",
         orbitalPeriod: "88.0 días",
         inclination: "7.00°",
         eccentricity: "0.20563",
-        otherInfo: " Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Su superficie está llena de cráteres, similar a la Luna, debido a la falta de una atmósfera significativa que proteja contra impactos. La temperatura en Mercurio puede oscilar entre -173°C durante la noche y 427°C durante el día. A pesar de su proximidad al Sol, su falta de atmósfera hace que no retenga calor."
+        otherInfo: " Mercury is the closest planet to the Sun and the smallest in the solar system. Its surface is heavily cratered, similar to the Moon, due to the lack of a significant atmosphere to protect against impacts. Temperatures on Mercury can range from -173°C at night to 427°C during the day. Despite its proximity to the Sun, its lack of an atmosphere means it does not retain heat."
     },
     Venus: {
         name: "Venus",
@@ -156,28 +156,28 @@ const planetData = {
         inclination: "3.39°",
         eccentricity: "0.0068",
         diametro: "12,104 km",
-        otherInfo: "Conocido como el 'gemelo' de la Tierra por su similar tamaño y composición, Venus tiene una atmósfera densa compuesta principalmente de dióxido de carbono, lo que genera un efecto invernadero extremo. Las temperaturas en la superficie alcanzan hasta 465°C, lo que lo convierte en el planeta más caliente. Las misiones espaciales han revelado montañas, valles y posibles volcanes activos en su superficie."
+        otherInfo: "Known as Earth's "twin" for its similar size and composition, Venus has a dense atmosphere composed primarily of carbon dioxide, which creates an extreme greenhouse effect. Surface temperatures reach up to 465°C, making it the hottest planet on the planet. Space missions have revealed mountains, valleys, and possible active volcanoes on its surface."
     },
     
     TheEarth: {
-        name: "Tierra",
+        name: "Earth",
         tipo: "Planeta",
         semimajorAxis: "1.00 AU",
         orbitalPeriod: "365.25 días",
         inclination: "23.44°",
         eccentricity: "0.0167",
         diametro: "12,742 km",
-        otherInfo: "La Tierra es el único planeta conocido que alberga vida. Tiene una atmósfera rica en oxígeno y agua líquida en abundancia. La Tierra tiene una diversidad de climas y ecosistemas que han permitido la evolución de una vasta biodiversidad. La investigación sobre el clima y la geografía terrestre ha sido revolucionada por el uso de satélites."
+        otherInfo: "Earth is the only known planet that supports life. It has an oxygen-rich atmosphere and abundant liquid water. Earth has a diversity of climates and ecosystems that have allowed the evolution of a vast biodiversity. Research on the Earth's climate and geography has been revolutionized by the use of satellites."
     },
      Mars: {
-        name: "Marte",
+        name: "Mars",
         tipo: "Planeta",
         semimajorAxis: "1.52 AU",
         orbitalPeriod: "687 días",
         inclination: "1.85°",
         eccentricity: "0.0935",
         diametro: "6,779 km", 
-        otherInfo: "Marte, conocido como el 'planeta rojo' por su color característico, se debe a la oxidación del hierro en su superficie. Tiene la montaña más alta y el cañón más largo del sistema solar: el monte Olimpo y el Valles Marineris, respectivamente. La presencia de hielo en los polos y los indicios de agua líquida en el pasado lo convierten en un lugar clave para la investigación de vida pasada."
+        otherInfo: "Mars, known as the 'red planet' for its characteristic color, is due to the oxidation of iron on its surface. It has the highest mountain and the longest canyon in the solar system: Mount Olympus and Valles Marineris, respectively. The presence of ice at the poles and the signs of liquid water in the past make it a key place for research into past life."
     },
      Jupiter: {
         name: "Jupiter",
@@ -187,7 +187,7 @@ const planetData = {
         inclination: "1.30°",
         eccentricity: "0.0489",
         diametro: "139,820 km", 
-        otherInfo: "Júpiter es el planeta más grande del sistema solar y es conocido por su Gran Mancha Roja, una gigantesca tormenta más grande que la Tierra. Tiene un sistema de anillos tenue y más de 79 lunas, siendo las más grandes Ío, Europa, Ganimedes y Calisto, conocidas como las lunas galileanas. La intensa gravedad de Júpiter influye en muchos otros cuerpos celestes en su vecindad."
+        otherInfo: "Jupiter is the largest planet in the solar system and is known for its Great Red Spot, a gigantic storm larger than Earth. It has a faint ring system and more than 79 moons, the largest being Io, Europa, Ganymede, and Callisto, known as the Galilean moons. Jupiter's intense gravity influences many other celestial bodies in its vicinity."
     },
      Saturn: {
         name: "Saturn",
@@ -197,7 +197,7 @@ const planetData = {
         inclination: "2.49°",
         eccentricity: "0.0565",
         diametro: "116,460 km", 
-        otherInfo: "Saturno es famoso por sus impresionantes anillos, compuestos de hielo y partículas de roca. Tiene más de 80 lunas, siendo Titán la más grande, que tiene una atmósfera densa y lagos de metano. Las misiones, como Cassini, han proporcionado datos valiosos sobre su estructura y composición."
+        otherInfo: "Saturn is famous for its impressive rings, composed of ice and rock particles. It has more than 80 moons, the largest being Titan, which has a dense atmosphere and methane lakes. Missions, such as Cassini, have provided valuable data on its structure and composition."
     },
      Uranus: {
         name: "Uranus",
@@ -207,7 +207,7 @@ const planetData = {
         inclination: "0.77°",
         eccentricity: "0.046",
         diametro: "50,724 km", 
-        otherInfo: "Urano es un gigante de gas con un color azul distintivo debido a la presencia de metano en su atmósfera. Es el único planeta que gira de lado, lo que resulta en extremos de temperatura y estaciones inusuales. Tiene un sistema de anillos delgados y al menos 27 lunas conocidas."
+        otherInfo: "Uranus is a gas giant with a distinctive blue color due to the presence of methane in its atmosphere. It is the only planet that spins on its side, resulting in unusual temperature extremes and seasons. It has a thin ring system and at least 27 known moons."
     },Neptune: {
         name: "Neptune",
         tipo: "Planeta",
@@ -216,7 +216,7 @@ const planetData = {
         inclination: "1.77°",
         eccentricity: "0.0086",
         diametro: "49,244 km", 
-        otherInfo: "Neptuno es conocido por sus vientos extremadamente fuertes y su color azul profundo, también causado por el metano. Tiene un sistema de anillos tenue y 14 lunas conocidas, siendo Tritón la más grande, que tiene actividad geológica."
+        otherInfo: "Neptune is known for its extremely strong winds and deep blue color, also caused by methane. It has a faint ring system and 14 known moons, the largest being Triton, which is geologically active."
     },
 
 
