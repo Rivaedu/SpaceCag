@@ -6,4 +6,4 @@ Our project focuses on creating an interactive solar system simulation utilizing
 <https://drive.google.com/file/d/1Ii8dMNqHgFqokfbCflyhOlzAu2eT_qTc/view?usp=sharing>
 
 # Web app
-<https://rivaedu.github.io/SpaceCag/sistema_solar/X3Dom/InnerSolarSystem.html>
+<https://rivaedu.github.io/SpaceCag/solar_system/X3Dom/InnerSolarSystem.html>
