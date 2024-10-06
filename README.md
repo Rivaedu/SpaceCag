@@ -4,3 +4,6 @@ Our project focuses on creating an interactive solar system simulation utilizing
 
 # 30 second video:
 <https://drive.google.com/file/d/1Ii8dMNqHgFqokfbCflyhOlzAu2eT_qTc/view?usp=sharing>
+
+# Web app
+<https://rivaedu.github.io/SpaceCag/sistema_solar/X3Dom/InnerSolarSystem.html>
