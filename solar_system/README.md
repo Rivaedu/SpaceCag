@@ -1,2 +1,2 @@
 # SpaceCag
-Web-based Solar System Orrey
+Web-based Solar System Orrery
